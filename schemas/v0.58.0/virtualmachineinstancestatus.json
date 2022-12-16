@@ -3,11 +3,6 @@
   "type": "object",
   "nullable": true,
   "properties": {
-    "VSOCKCID": {
-      "description": "VSOCKCID is used to track the allocated VSOCK CID in the VM.",
-      "type": "integer",
-      "format": "int64"
-    },
     "activePods": {
       "description": "ActivePods is a mapping of pod UID to node name. It is possible for multiple pods to be running for a single VMI during migration.",
       "type": "object",

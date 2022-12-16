@@ -31,10 +31,6 @@
     "tokenSecretRef": {
       "description": "TokenSecretRef is the name of the custom-defined secret that contains the token used by the export server pod",
       "type": "string"
-    },
-    "ttlDuration": {
-      "description": "Duration is a wrapper around time.Duration which supports correct marshaling to YAML and JSON. In particular, it marshals into strings, which can be used as map keys in json.",
-      "type": "string"
     }
   },
   "additionalProperties": false,

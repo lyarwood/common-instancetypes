@@ -2160,10 +2160,6 @@
                           "description": "Whether to attach the default serial console or not. Serial console access will not be available if set to false. Defaults to true.",
                           "type": "boolean"
                         },
-                        "autoattachVSOCK": {
-                          "description": "Whether to attach the VSOCK CID to the VM or not. VSOCK access will be available if set to true. Defaults to false.",
-                          "type": "boolean"
-                        },
                         "blockMultiQueue": {
                           "description": "Whether or not to enable virtio multi-queue for block devices. Defaults to false.",
                           "type": "boolean"
